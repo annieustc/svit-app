@@ -15,7 +15,7 @@ public class ExceptionHandlingDemo {
         System.out.println("finished"); /* Line 24 */
     }
 
-    public static void aMethod() throws Exception {
+    public static void aMethod()  {
         try /* Line 5 */
         {
             throw new Exception(); /* Line 7 */
